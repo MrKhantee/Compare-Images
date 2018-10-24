@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Compare Images</string>
+    <string name="pref_image_quality">Image Quality</string>
+    <string name="pref_image_quality_key">KEY_IMAGE_QUALITY</string>
+    <string name="save_image">Save Image</string>
+    <string name="file_name">File Name</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string-array name="pref_image_quality_entries">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High (Default)</item>
+        <item>Extra High</item>
+        <item>Full</item>
+    </string-array>
+
+    <string-array name="pref_image_quality_values">
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+
+    <string name="pref_image_quality_default">High</string>
+</resources>

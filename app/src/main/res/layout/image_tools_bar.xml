@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/image_tools_bar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/image_tools_bar_height"
+    android:background="@color/gray_blue_dark"
+    android:clickable="true"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+        <ImageButton
+            android:id="@+id/btn_cw"
+            android:layout_width="@dimen/image_tools_bar_item_size"
+            android:layout_height="@dimen/image_tools_bar_item_size"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_rotate_cw_white_24dp" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"></Space>
+
+        <ImageButton
+            android:id="@+id/btn_mirror"
+            android:layout_width="@dimen/image_tools_bar_item_size"
+            android:layout_height="@dimen/image_tools_bar_item_size"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/format_horizontal_align_center" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"></Space>
+
+        <ImageButton
+            android:id="@+id/btn_img_src"
+            android:layout_width="@dimen/image_tools_bar_item_size"
+            android:layout_height="@dimen/image_tools_bar_item_size"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_image_white_24dp" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"></Space>
+
+        <ImageButton
+            android:id="@+id/btn_ccw"
+            android:layout_width="@dimen/image_tools_bar_item_size"
+            android:layout_height="@dimen/image_tools_bar_item_size"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_rotate_ccw_white_24dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

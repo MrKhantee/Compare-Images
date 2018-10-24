@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_image"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <uk.co.senab.photoview.PhotoView
+            android:focusable="false"
+            android:clickable="false"
+            android:id="@+id/image_item_bitmap"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitEnd" />
+
+        <include layout="@layout/image_tools_bar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_tools_bar_height"
+            android:layout_alignParentBottom="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>
