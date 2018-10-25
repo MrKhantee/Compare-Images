@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-    <CheckBoxPreference
-        android:key="pref_sync"
-        android:title="Test"
-        android:summary="LOL TEST"
-        android:defaultValue="true" />
     <ListPreference
-        android:dependency="pref_sync"
         android:key="KEY_IMAGE_QUALITY"
         android:title="@string/pref_image_quality"
         android:dialogTitle="@string/pref_image_quality"
